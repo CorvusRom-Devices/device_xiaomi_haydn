@@ -46,7 +46,7 @@
         <SwitchPreference
             android:key="gesture_pick_up"
             android:defaultValue="false"
-            android:icon="@drawable/ic_pickup"
+            android:icon="@drawable/ic_doze_pickup"
             android:title="@string/pick_up_gesture_title"
             android:summary="@string/pick_up_gesture_summary" />
 
@@ -54,6 +54,7 @@
             android:defaultValue="false"
             android:disableDependentsState="true"
             android:key="gesture_raise_to_wake"
+            android:icon="@drawable/ic_doze_wake"
             android:summary="@string/raise_to_wake_gesture_summary"
             android:title="@string/raise_to_wake_gesture_title" />
 
@@ -66,14 +67,14 @@
         <SwitchPreference
             android:key="gesture_hand_wave"
             android:defaultValue="false"
-            android:icon="@drawable/ic_hand"
+            android:icon="@drawable/ic_doze_hand"
             android:title="@string/hand_wave_gesture_title"
             android:summary="@string/hand_wave_gesture_summary" />
 
         <SwitchPreference
             android:key="gesture_pocket"
             android:defaultValue="false"
-            android:icon="@drawable/ic_pocket"
+            android:icon="@drawable/ic_doze_pocket"
             android:title="@string/pocket_gesture_title"
             android:summary="@string/pocket_gesture_summary" />
 
