@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_haydn.mk
+    $(LOCAL_DIR)/corvus_haydn.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_haydn-user \
-    aosp_haydn-userdebug \
-    aosp_haydn-eng
+    corvus_haydn-user \
+    corvus_haydn-userdebug \
+    corvus_haydn-eng
