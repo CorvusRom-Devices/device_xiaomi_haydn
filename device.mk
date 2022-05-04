@@ -175,7 +175,8 @@ PRODUCT_PACKAGES += \
     memtrack.default
 
 PRODUCT_PACKAGES += \
-    libdisplayconfig.qti
+    libdisplayconfig.qti \
+    libdisplayconfig.qti.vendor
 
 PRODUCT_PACKAGES += \
     vendor.display.config@1.15.vendor \
