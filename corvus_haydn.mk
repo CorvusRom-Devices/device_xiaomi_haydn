@@ -11,7 +11,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from haydn device
 $(call inherit-product, device/xiaomi/haydn/device.mk)
 
-# Inherit some common PixelExperience stuff.
+# Inherit some common Corvus stuff.
 $(call inherit-product, vendor/corvus/config/common_full_phone.mk)
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_SUPPORTS_QUICK_TAP := true
@@ -25,3 +25,9 @@ PRODUCT_MODEL := M2012K11I
 PRODUCT_MANUFACTURER := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Maintainer Flag
+CORVUS_MAINTAINER := Ritzzz
+
+# Clang flag
+USE_PROTON := true
