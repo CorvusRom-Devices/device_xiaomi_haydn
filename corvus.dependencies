@@ -1,20 +1,20 @@
 [
   {
-    "repository": "kernel_xiaomi_haydn",
+    "repository" : "PixelExperience-Devices/kernel_xiaomi_haydn",
     "target_path": "kernel/xiaomi/haydn",
-    "remote": "pixel-devices",
-    "branch": "twelve"
+    "remote"     : "github",
+    "branch"     : "twelve"
   },
   {
-    "repository": "vendor_xiaomi_haydn",
+    "repository" : "vendor_xiaomi_haydn",
     "target_path": "vendor/xiaomi/haydn",
-    "remote": "pixel-devices-blobs",
-    "branch": "twelve"
+    "remote"     : "pixel-gitlab",
+    "branch"     : "twelve"
   },
   {
-    "repository": "vendor_xiaomi_haydn-miuicamera",
+    "repository" : "vendor_xiaomi_haydn-miuicamera",
     "target_path": "vendor/xiaomi/haydn-miuicamera",
-    "remote": "pixel-devices-blobs",
-    "branch": "twelve"
+    "remote"     : "pixel-gitlab",
+    "branch"     : "twelve"
   }
 ]
