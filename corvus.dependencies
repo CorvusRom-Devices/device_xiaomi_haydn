@@ -16,5 +16,17 @@
     "target_path": "vendor/xiaomi/haydn-miuicamera",
     "remote"     : "pixel-gitlab",
     "branch"     : "twelve"
+  },
+  {
+    "repository" : "LineageOS/android_packages_resources_devicesettings",
+    "target_path": "packages/resources/devicesettings",
+    "remote"     : "github",
+    "branch"     : "lineage-19.1"
+  },
+  {
+    "repository" : "LineageOS/android_hardware_xiaomi",
+    "target_path": "hardware/xiaomi",
+    "remote"     : "github",
+    "branch"     : "lineage-19.1"
   }
 ]
