@@ -735,4 +735,8 @@
         <item>970</item> <!--item>sensorLocationY</item-->
         <item>200</item> <!--item>sensorRadius</item-->
     </array>
+    
+    <!-- Default color temperature, in Haydn, to tint the screen when Night display is
+         activated. -->
+    <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
 </resources>
