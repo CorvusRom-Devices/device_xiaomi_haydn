@@ -6,10 +6,10 @@
     "branch"     : "twelve"
   },
   {
-    "repository" : "vendor_xiaomi_haydn",
+    "repository" : "CorvusRom-Devices/vendor_xiaomi_haydn",
     "target_path": "vendor/xiaomi/haydn",
-    "remote"     : "pixel-gitlab",
-    "branch"     : "twelve"
+    "remote"     : "github",
+    "branch"     : "12L"
   },
   {
     "repository" : "vendor_xiaomi_haydn-miuicamera",
