@@ -164,7 +164,6 @@ vendor.gatekeeper.disable_spu=true
 # Graphics
 debug.sf.disable_client_composition_cache=1
 debug.sdm.support_writeback=0
-debug.renderengine.backend=threaded
 debug.sf.disable_client_composition_cache=1
 debug.sf.enable_advanced_sf_phase_offset=1
 debug.sf.high_fps_early_gl_phase_offset_ns=-2000000
